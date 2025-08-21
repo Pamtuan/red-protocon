@@ -554,17 +554,5 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
-export default function handler(req, res) {
-  const filePath = '/path/to/your/file.exe';
-  const fs = require('fs');
-  
-  // Đảm bảo tệp tồn tại
-  if (fs.existsSync(filePath)) {
-    res.setHeader('Content-Type', 'application/octet-stream');
-    res.setHeader('Content-Disposition', 'attachment; filename="yourfile.exe"');
-    res.send(fs.readFileSync(filePath));
-  } else {
-    res.status(404).json({ error: 'File not found' });
-  }
-}
+
 
