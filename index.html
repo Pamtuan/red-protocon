@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RED PROTOCOL</title>
+  <link rel="stylesheet" href="gaming.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;700&display=swap" rel="stylesheet">
+  <!-- In your index.html <head> -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="assets/icon app.png" sizes="32x32" type="image/png">
+
+</head>
+
+<body>
+
+
+  <header id="home">
+    <div class="nav">
+      <img src="assets/123 2.png" alt="Logo" class="logo">
+        <div class="left-side">
+          <a href="#home" class="nav-link" data-section="home" data-original="Home" data-bg="assets/hover.png"
+            data-alt="Trang chủ">Trang chủ</a>
+          <a href="#characters" class="nav-link" data-section="characters" data-original="Characters" data-bg="assets/hover.png"
+            data-alt="Nhân vật" data-size="wide">Nhân vật</a>
+          <a href="#news" class="nav-link" data-section="news" data-original="News" data-bg="assets/hover.png"
+            data-alt="Tin tức">Tin tức</a>
+          <a href="#discover" class="nav-link" data-section="discover" data-original="Discover" data-bg="assets/hover.png"
+            data-alt="Khám phá">Khám phá</a>
+        </div>   
+    </div>
+
+    <div class="back-image">
+      <div class="home">
+        <div class="home" id="home"> 
+        <img class="imweb" src="assets/imweb.png" a></img>
+        
+        <!-- Image for mobile -->
+        <img class="img-mobile" src="assets/immo.png" alt="Hero Image" />
+    
+        <!-- 3 images below the video -->
+          <div class="loading-images">
+            <img src="assets/chplay.png" alt="Loading 1">
+            <img src="assets/steam.png" alt="Loading 2">
+            <img src="assets/pc.png" alt="Loading 3">
+          </div>
+      </div>
+    </div>
+
+  
+
+    <div class="characters" id="characters">
+      <h1>Nhân vật</h1>
+
+      <div class="character-info-container">
+        <!-- Character Info Slider -->
+        <div class="info-item active" data-index="0">
+          <div class="character-info">
+            <img src="assets/Neo cao.png" alt="">
+            <h1>Neo</h1>
+            <p style="text-align: justify;">
+              Neo là nhân vật chính, đại diện cho loài người, với sứ mệnh khôi phục trật tự và hòa giải xung đột giữa nhân loại và các thế lực bí ẩn sau thảm họa. Câu chuyện xoay quanh tiêu diệt quái vật và đối diện quá khứ, sự thật bị che giấu.
+            </p>
+          </div>
+        </div>
+
+        <div class="info-item" data-index="1">
+          <div class="character-info">
+            <img src="assets/Cheryl Cao.png" alt="">
+            <h1>Cheryl</h1>
+            <p style="text-align: justify;">
+              Cheryl là nhân vật trong nhóm anh hùng Monster Slayer, nhưng là nhóm không chính thức. Cô sống không có mục tiêu rõ ràng, 
+              chỉ muốn kiếm tiền. Hiện tại, cô đang quản lý một ngôi nhà nuôi các trẻ mồ côi, những đứa trẻ mất cha mẹ vì quái vật.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Character Image -->
+      <div class="character-image-wrapper">
+        <div class="character-image">
+          <img class="char-img active" src="assets/NEO-tấn-công.gif" alt="" data-index="0">
+          <img class="char-img" src="assets/Cheryl-tấn-công.gif" alt="" data-index="1">
+
+        </div>
+      </div>
+
+      <!-- Switch Buttons -->
+      <div class="character-buttons">
+        <img class="char-btn active" data-index="0" src="assets/Neo.png" alt="Veresa">
+        <img class="char-btn" data-index="1" src="assets/Cherryl.png" alt="Ignis">
+
+      </div>
+
+      <hr>
+    </div>
+
+
+
+    <div class="news" id="news">
+      <h1>Tin tức</h1>
+      <div class="news-content-wrapper">
+        <div class="news-info active">
+          <div class="image-slider">
+            <!-- Radio buttons -->
+            <input type="radio" name="slider" id="img1" checked>
+            <input type="radio" name="slider" id="img2">
+            <input type="radio" name="slider" id="img3">
+
+            <!-- Slides container -->
+            <div class="slides">
+              <div class="slide s1">
+                <div class="text-content">
+                  <h2>Thông báo ra mắt</h2>
+                  <p>Chúng tôi rất vui mừng thông báo về sự ra mắt game RED PROTOCOL</p>
+                  <p class="date">15/8/2025</p>
+                </div>
+                <div class="newing">
+                  <img src="assets/imweb.png" alt="Image 1">
+                </div>
+              </div>
+              <div class="slide s2">
+                <div class="text-content">
+                  <h2> Trải nghiệm game RED PROTOCOL tại trung tâm thương mại!</h2>
+                  <p>Thử thách ngay game RED PROTOCOL sắp ra mắt tại trung tâm thương mại! Tham gia ngay!</p>
+                  <p class="date">15/8/2025</p>
+                </div>
+                <div class="newing">
+                  <img src="assets/News2.png" alt="Image 1">
+                </div>
+              </div>
+              
+            </div>
+
+
+
+
+            <!-- Navigation -->
+            <div class="navigation-manual">
+              <label for="img1" class="manual-btn"></label>
+              <label for="img2" class="manual-btn"></label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="discover" id="discover">
+      <h1>Khám phá</h1>
+      <div class="video-slider">
+        <!-- Radio buttons -->
+        <input type="radio" name="video-slider" id="vid1" checked>
+        <input type="radio" name="video-slider" id="vid2">
+
+        <!-- Video Slides -->
+        <div class="video-slides">
+          <div class="video-slide v1">
+
+
+            <video class="hero-video2" src="assets/version event1.mp4" autoplay loop playsinline muted></video>
+            <div class="text-content2">
+              <h2 style="text-align: left;">Khám phá thế giới giả tưởng, chiến đấu và chiến thắng bằng chiến lược, kỹ năng.</h2>
+            </div>
+          </div>
+
+          <div class="video-slide v2">
+            <video class="hero-video2" src="assets/version event.mp4" autoplay loop playsinline muted></video>
+
+            <div class="text-content2">
+              <h2 style="text-align: left;">Quyết định chiến thuật, chiến đấu từng lượt để đánh bại quái vật hùng mạnh.</h2>
+            </div>
+          </div>
+
+          <!-- Navigation -->
+          <div class="navigation-manual2">
+            <label for="vid1" class="manual-btn"></label>
+            <label for="vid2" class="manual-btn"></label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    <div class="footer">
+      <div class="footer-content">
+          <div class="footer-logo">
+              <img src="assets/icon app.png" alt="Red protocol" class="footer-image">
+              <p class="footer-logo-text">RED PROTOCOL</p>
+          </div>
+      </div>
+      <div class="footer-info">
+          <p>Người chịu trách nhiệm phát triển game: Lưu Thuận Phát</p>
+          <p>© 2025 Red Protocol. All rights reserved.</p>
+      </div>
+   </div>
+  
+  
+
+  <script src="gaming.js" ></script>
+</body>
+
+</html>
